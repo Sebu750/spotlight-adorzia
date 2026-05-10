@@ -10,7 +10,7 @@ const PERKS = [
 
 export function Prize() {
   return (
-    <section id="prize" className="py-24 md:py-32 border-b border-border">
+    <section id="prize" className="py-16 md:py-32 border-b border-border">
       <div className="container-cut">
         <div className="grid lg:grid-cols-12 gap-10 mb-14">
           <div className="lg:col-span-5">

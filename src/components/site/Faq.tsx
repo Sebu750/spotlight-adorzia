@@ -13,7 +13,7 @@ const FAQS = [
 export function Faq() {
   const [open, setOpen] = useState<number | null>(0);
   return (
-    <section className="py-24 md:py-32 border-b border-border">
+    <section className="py-16 md:py-32 border-b border-border">
       <div className="container-cut grid lg:grid-cols-12 gap-10">
         <div className="lg:col-span-4">
           <span className="eyebrow">— FAQ</span>

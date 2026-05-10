@@ -42,7 +42,7 @@ export function FinalCta() {
   }
 
   return (
-    <section id="apply" className="relative py-24 md:py-32 overflow-hidden">
+    <section id="apply" className="relative py-16 md:py-32 overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--color-primary)_0%,_transparent_60%)] opacity-20" />
       <div className="container-cut relative grid lg:grid-cols-12 gap-12 items-center">
         <div className="lg:col-span-6">

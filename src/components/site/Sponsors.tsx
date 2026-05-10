@@ -43,7 +43,7 @@ export function Sponsors() {
   }
 
   return (
-    <section id="sponsors" className="py-20 md:py-28 border-b border-border">
+    <section id="sponsors" className="py-16 md:py-28 border-b border-border">
       <div className="container-cut grid lg:grid-cols-12 gap-10">
         <div className="lg:col-span-5">
           <span className="eyebrow">— For brands & mills</span>

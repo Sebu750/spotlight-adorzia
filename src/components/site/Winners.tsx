@@ -32,7 +32,7 @@ const ALUMNI = [
 
 export function Winners() {
   return (
-    <section id="winners" className="py-24 md:py-32 border-b border-border">
+    <section id="winners" className="py-16 md:py-32 border-b border-border">
       <div className="container-cut">
         <div className="mb-14">
           <span className="eyebrow">— The ADORZIA Legacy</span>

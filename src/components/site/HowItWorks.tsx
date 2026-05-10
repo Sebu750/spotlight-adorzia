@@ -8,7 +8,7 @@ const STEPS = [
 
 export function HowItWorks() {
   return (
-    <section id="how" className="py-24 md:py-32 border-b border-border">
+    <section id="how" className="py-16 md:py-32 border-b border-border">
       <div className="container-cut">
         <div className="flex items-end justify-between flex-wrap gap-4 mb-14">
           <div>
