@@ -57,8 +57,8 @@ export function Hero() {
 function Stat({ n, l }: { n: string; l: string }) {
   return (
     <div className="border-t border-foreground/40 pt-3">
-      <div className="display text-2xl md:text-4xl">{n}</div>
-      <div className="eyebrow mt-1">{l}</div>
+      <div className="display text-xl md:text-4xl">{n}</div>
+      <div className="eyebrow mt-1 text-[0.6rem] md:text-xs">{l}</div>
     </div>
   );
 }
