@@ -13,31 +13,31 @@ export function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/30 to-background" />
       <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-background/20 to-transparent" />
 
-      <div className="relative container-cut pt-28 md:pt-36 pb-16 min-h-[100svh] flex flex-col">
+      <div className="relative container-cut pt-24 md:pt-36 pb-12 md:pb-16 min-h-[100svh] flex flex-col">
         <div className="flex items-center gap-3 eyebrow">
           <span className="inline-block w-8 h-px bg-primary" />
           Fall 2026 · Open Call
         </div>
 
-        <h1 className="mt-8 text-[14vw] md:text-[8.5vw] lg:text-[7.2rem] xl:text-[8.5rem] leading-[0.85]">
+        <h1 className="mt-6 md:mt-8 text-[15vw] md:text-[8.5vw] lg:text-[7.2rem] xl:text-[8.5rem] leading-[0.85]">
           Stop interning.<br />
           <span className="text-primary">Start</span> competing.
         </h1>
 
-        <p className="mt-8 max-w-xl font-serif text-lg md:text-xl text-foreground/85 leading-snug">
+        <p className="mt-6 md:mt-8 max-w-xl font-serif text-base md:text-xl text-foreground/85 leading-snug">
           3 rounds. 10 finalists. 1 winner.<br />
           Judged by HSY, Maheen Khan, Deepak Perwani, and Nomi Ansari.
         </p>
 
-        <div className="mt-10 flex flex-wrap items-center gap-3">
-          <a href="#apply" className="btn-cut">
-            <span className="label">Apply Now - Early bird ends June 1st </span>
+        <div className="mt-8 md:mt-10 flex flex-col sm:flex-row sm:flex-wrap items-stretch sm:items-center gap-3">
+          <a href="#apply" className="btn-cut text-sm md:text-base">
+            <span className="label">Apply Now — Early bird ends June 1st</span>
             <span className="label-alt">Yes, I'm ready</span>
           </a>
-          <a href="#prize" className="btn-ghost">Download prospectus →</a>
+          <a href="#prize" className="btn-ghost justify-center">Download prospectus →</a>
         </div>
 
-        <div className="mt-auto pt-16 grid grid-cols-3 gap-6 max-w-2xl">
+        <div className="mt-12 md:mt-auto pt-10 md:pt-16 grid grid-cols-3 gap-3 md:gap-6 max-w-2xl">
           <Stat n="300K" l="PKR Cash prize" />
           <Stat n="100" l="Shortlisted" />
           <Stat n="10" l="Finalist spots" />
