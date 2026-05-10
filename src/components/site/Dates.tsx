@@ -11,25 +11,25 @@ const DATES = [
 
 export function Dates() {
   return (
-    <section id="dates" className="py-24 md:py-32 border-b border-border bg-surface">
+    <section id="dates" className="py-16 md:py-32 border-b border-border bg-surface">
       <div className="container-cut">
-        <div className="flex items-end justify-between flex-wrap gap-4 mb-14">
+        <div className="flex items-end justify-between flex-wrap gap-4 mb-10 md:mb-14">
           <div>
             <span className="eyebrow">— Calendar</span>
-            <h2 className="mt-3 text-5xl md:text-7xl">Key dates.</h2>
+            <h2 className="mt-3 text-4xl md:text-7xl">Key dates.</h2>
           </div>
-          <a href="#apply" className="btn-cut">
-            <span className="label">LStart your application</span>
+          <a href="#apply" className="btn-cut text-sm md:text-base">
+            <span className="label">Start your application</span>
             <span className="label-alt">June 1st Launch</span>
           </a>
         </div>
 
         <ol className="border-t border-border">
           {DATES.map((d) => (
-            <li key={d.t} className="grid grid-cols-12 gap-4 md:gap-8 py-6 md:py-8 border-b border-border items-center">
-              <div className={`col-span-4 md:col-span-2 display text-2xl md:text-4xl ${d.urgent ? "text-primary" : ""}`}>{d.d}</div>
-              <div className="col-span-8 md:col-span-6 display text-xl md:text-2xl">{d.t}</div>
-              <div className="col-span-12 md:col-span-4 font-serif text-foreground/65">{d.note}</div>
+            <li key={d.t} className="grid grid-cols-12 gap-3 md:gap-8 py-5 md:py-8 border-b border-border items-start md:items-center">
+              <div className={`col-span-12 md:col-span-2 display text-xl md:text-4xl ${d.urgent ? "text-primary" : ""}`}>{d.d}</div>
+              <div className="col-span-12 md:col-span-6 display text-lg md:text-2xl">{d.t}</div>
+              <div className="col-span-12 md:col-span-4 font-serif text-foreground/65 text-sm md:text-base">{d.note}</div>
             </li>
           ))}
         </ol>

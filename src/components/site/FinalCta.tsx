@@ -42,22 +42,22 @@ export function FinalCta() {
   }
 
   return (
-    <section id="apply" className="relative py-24 md:py-32 overflow-hidden">
+    <section id="apply" className="relative py-16 md:py-32 overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--color-primary)_0%,_transparent_60%)] opacity-20" />
-      <div className="container-cut relative grid lg:grid-cols-12 gap-12 items-center">
+      <div className="container-cut relative grid lg:grid-cols-12 gap-8 md:gap-12 items-center">
         <div className="lg:col-span-6">
           <span className="eyebrow">— Last call</span>
-          <h2 className="mt-4 text-5xl md:text-7xl lg:text-8xl">
+          <h2 className="mt-4 text-4xl md:text-7xl lg:text-8xl">
             Your breakout<br />
             is <span className="text-primary">4 clicks</span><br />
             away.
           </h2>
-          <p className="mt-6 font-serif text-lg text-foreground/75 max-w-md">
+          <p className="mt-5 md:mt-6 font-serif text-base md:text-lg text-foreground/75 max-w-md">
            Launch Season: 100 designers  will be shortlisted for 10 finalist spots. Apply by <span className="text-primary font-bold">July 15 </span> to secure your place.
           </p>
         </div>
 
-        <form onSubmit={handleSubmit} className="lg:col-span-6 bg-surface border border-border p-8 md:p-10 space-y-5">
+        <form onSubmit={handleSubmit} className="lg:col-span-6 bg-surface border border-border p-6 md:p-10 space-y-5">
           {submitted ? (
             <div className="py-12 text-center">
               <div className="display text-3xl text-primary">You're in the queue.</div>

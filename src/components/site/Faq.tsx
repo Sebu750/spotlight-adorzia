@@ -13,12 +13,12 @@ const FAQS = [
 export function Faq() {
   const [open, setOpen] = useState<number | null>(0);
   return (
-    <section className="py-24 md:py-32 border-b border-border">
-      <div className="container-cut grid lg:grid-cols-12 gap-10">
+    <section className="py-16 md:py-32 border-b border-border">
+      <div className="container-cut grid lg:grid-cols-12 gap-8 md:gap-10">
         <div className="lg:col-span-4">
           <span className="eyebrow">— FAQ</span>
-          <h2 className="mt-3 text-5xl md:text-6xl">Read this first.</h2>
-          <p className="mt-6 font-serif text-foreground/65">Still unsure? Email <a href="mailto:spotlight@adorzia.com" className="text-primary underline underline-offset-4">spotlight@adorzia.com</a>.</p>
+          <h2 className="mt-3 text-4xl md:text-6xl">Read this first.</h2>
+          <p className="mt-4 md:mt-6 font-serif text-foreground/65 text-sm md:text-base">Still unsure? Email <a href="mailto:spotlight@adorzia.com" className="text-primary underline underline-offset-4">spotlight@adorzia.com</a>.</p>
         </div>
         <div className="lg:col-span-8">
           {FAQS.map((f, i) => {
