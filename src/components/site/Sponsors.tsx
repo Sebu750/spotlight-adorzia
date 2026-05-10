@@ -44,10 +44,10 @@ export function Sponsors() {
 
   return (
     <section id="sponsors" className="py-16 md:py-28 border-b border-border">
-      <div className="container-cut grid lg:grid-cols-12 gap-10">
+      <div className="container-cut grid lg:grid-cols-12 gap-8 md:gap-10">
         <div className="lg:col-span-5">
           <span className="eyebrow">— For brands & mills</span>
-          <h2 className="mt-3 text-4xl md:text-5xl">Own the next generation of talent.</h2>
+          <h2 className="mt-3 text-3xl md:text-5xl">Own the next generation of talent.</h2>
         </div>
         <div className="lg:col-span-6 lg:col-start-7">
          <ul className="font-serif text-foreground/80 text-lg space-y-4 mb-8">
