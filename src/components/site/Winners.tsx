@@ -34,12 +34,12 @@ export function Winners() {
   return (
     <section id="winners" className="py-16 md:py-32 border-b border-border">
       <div className="container-cut">
-        <div className="mb-14">
+        <div className="mb-10 md:mb-14">
           <span className="eyebrow">— The ADORZIA Legacy</span>
-          <h2 className="mt-3 text-5xl md:text-7xl">Who we are looking for.</h2>
+          <h2 className="mt-3 text-4xl md:text-7xl">Who we are looking for.</h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
           {ALUMNI.map((a) => (
             <article key={a.name} className="group">
               <div className="relative overflow-hidden bg-surface aspect-[4/5]">
