@@ -1,11 +1,11 @@
 import { Instagram, Facebook, Twitter, Youtube, Linkedin, Mail } from "lucide-react";
 
 const socials = [
-  { href: "https://instagram.com/spotlight.adorzia", label: "Instagram", Icon: Instagram },
-  { href: "https://www.tiktok.com/@spotlight.adorzia", label: "TikTok", Icon: Twitter },
-  { href: "https://www.facebook.com/spotlight.adorzia", label: "Facebook", Icon: Facebook },
-  { href: "https://www.youtube.com/@spotlight.adorzia", label: "YouTube", Icon: Youtube },
-  { href: "https://www.linkedin.com/company/spotlight-adorzia", label: "LinkedIn", Icon: Linkedin },
+  { href: "https://www.instagram.com/adorziaofficial", label: "Instagram", Icon: Instagram },
+  { href: "https://www.tiktok.com/@adorziaofficial", label: "TikTok", Icon: Twitter },
+  { href: "https://www.facebook.com/adorziaofficial", label: "Facebook", Icon: Facebook },
+  { href: "https://www.youtube.com/@adorziaofficial", label: "YouTube", Icon: Youtube },
+  { href: "https://www.linkedin.com/company/adorzia", label: "LinkedIn", Icon: Linkedin },
   { href: "mailto:spotlight@adorzia.com", label: "Email", Icon: Mail },
 ];
 
