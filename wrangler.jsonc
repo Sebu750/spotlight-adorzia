@@ -1,12 +1,11 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "spotlight-adorzia",
-  "compatibility_date": "2025-09-24",
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "spotlight-adorzia-v1",
+  "compatibility_date": "2026-05-11",
   "compatibility_flags": ["nodejs_compat"],
-  "main": "src/server.ts",
+  "main": ".output/server/index.mjs",
   "assets": {
-    "directory": "./dist/client",
-    "binding": "ASSETS"
+    "directory": "./.output/public"
   },
   "observability": {
     "enabled": true
