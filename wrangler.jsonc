@@ -1,9 +1,9 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "spotlight-adorzia-v1",
+  "name": "spotlight-adorzia-beta",
   "compatibility_date": "2026-05-11",
   "compatibility_flags": ["nodejs_compat"],
-  "main": ".output/server/index.mjs",
+  "main": "@tanstack/react-start/server-entry"
   "assets": {
     "directory": "./.output/public"
   },
