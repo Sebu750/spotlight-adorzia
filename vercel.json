@@ -3,7 +3,7 @@
   "outputDirectory": "dist/client",
   "framework": "vite",
   "rewrites": [
-    { "source": "/(.*)", "destination": "/index.tsx" }
+    { "source": "/(.*)", "destination": "/index.html" }
   ],
   "env": {
     "NODE_VERSION": "22"
