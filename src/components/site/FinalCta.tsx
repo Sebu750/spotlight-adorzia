@@ -53,7 +53,7 @@ export function FinalCta() {
             away.
           </h2>
           <p className="mt-5 md:mt-6 font-serif text-base md:text-lg text-foreground/75 max-w-md">
-           Launch Season: 100 designers  will be shortlisted for 10 finalist spots. Apply by <span className="text-primary font-bold">July 15 </span> to secure your place.
+           Applications are open now — <span className="text-primary font-bold">free to enter</span>. Design file uploads open <span className="text-primary font-bold">July 1</span>, with final cutoff <span className="text-primary font-bold">July 15</span>. Only the Top 100 pay a non-refundable <span className="text-primary font-bold">5,000 PKR</span> fee to proceed.
           </p>
         </div>
 
@@ -78,10 +78,10 @@ export function FinalCta() {
               </div>
               {error && <p className="font-mono text-xs text-destructive">{error}</p>}
               <button type="submit" disabled={loading} className="btn-cut w-full disabled:opacity-60">
-                <span className="label">{loading ? "Submitting…" : "Pay entry fee & upload portfolio"}</span>
-                <span className="label-alt">No turning back</span>
+                <span className="label">{loading ? "Submitting…" : "Submit free application"}</span>
+                <span className="label-alt">No fee to apply</span>
               </button>
-              <p className="text-xs font-mono text-foreground/50 text-center">Applications open June 1st · Need-based waivers available</p>
+              <p className="text-xs font-mono text-foreground/50 text-center">Free to apply · Design files due July 15 · Top 100 pay 5,000 PKR to proceed</p>
             </>
           )}
         </form>

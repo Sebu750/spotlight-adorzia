@@ -1,8 +1,9 @@
 const DATES = [
-  { d: "June 1", t: "Online Applications Open", note: "Submit your portfolio and design vision.", urgent: true },
-  { d: "July 15", t: "Application Deadline", note: "Final entry cutoff. No extensions." },
-  { d: "August 10", t: "Final Jury Review", note: "Selection of the Top 10 finalists." },
-  { d: "September 14", t: "The Grand Runway", note: "Live finale and winner announcement." },
+  { d: "Open Now", t: "Applications Open", note: "Submit your portfolio and design vision today. No fee to apply.", urgent: true },
+  { d: "July 1", t: "Design File Submission Opens", note: "Upload window for full design files goes live." },
+  { d: "July 15", t: "Application Deadline", note: "Final entry cutoff. All design files must be submitted by this date." },
+  { d: "August 10", t: "Top 100 Announced", note: "Shortlisted candidates pay a non-refundable 5,000 PKR fee to proceed to jury review." },
+  { d: "September 14", t: "The Grand Runway", note: "Live finale, Top 10 showcase, and winner announcement." },
 ];
 
 export function Dates() {
