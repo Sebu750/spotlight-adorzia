@@ -3,7 +3,7 @@
   "name": "spotlight-adorzia-beta",
   "compatibility_date": "2026-05-11",
   "compatibility_flags": ["nodejs_compat"],
-  "main": "@tanstack/react-start/server-entry"
+  "main": "@tanstack/react-start/server-entry",
   "assets": {
     "directory": "./.output/public"
   },
