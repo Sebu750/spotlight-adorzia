@@ -1,9 +1,9 @@
 
 const STEPS = [
-  { n: "01", t: "Online Application", d: "Open June 1st. Submit your portfolio and vision. Internal screening shortlists the Top 100." },
-  { n: "02", t: "Jury Selection", d: "Industry Creative Directors and a prestigious jury evaluate the Top 100 to select the Top 10 finalists." },
-  { n: "03", t: "The Grand Runway", d: "Sept 14th finale. Top 10 showcase on the runway. Winner determined by influencers, public, and stakeholders." },
-  { n: "04", t: "Incubation & Launch", d: "Top 1 winner receives PKR 300K. Top 10 begin a 1-year funded production and marketplace partnership." },
+  { n: "01", t: "Apply Now — Free", d: "Applications are open immediately. Submit your portfolio and vision at no cost. Design file uploads open July 1." },
+  { n: "02", t: "Top 100 Shortlist", d: "Internal screening selects the Top 100. Shortlisted candidates pay a one-time, non-refundable 5,000 PKR fee to proceed." },
+  { n: "03", t: "Jury Selection", d: "Industry Creative Directors and a prestigious jury evaluate the Top 100 to select the Top 10 finalists." },
+  { n: "04", t: "Runway & Launch", d: "Sept 14th finale. Top 10 showcase on the runway. Winner receives PKR 300K and a 1-year funded production partnership." },
 ];
 
 export function HowItWorks() {
