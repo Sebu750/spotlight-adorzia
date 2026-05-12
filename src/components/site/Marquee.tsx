@@ -8,7 +8,7 @@ export function Marquee() {
   return (
     <section className="border-y border-border bg-background py-6 overflow-hidden">
       <div className="container-cut mb-4">
-        <span className="eyebrow">Seeking Partnership with</span>
+        <span className="eyebrow">Collaboration Opportunities</span>
       </div>
       <div className="relative">
         <div className="marquee-track">
