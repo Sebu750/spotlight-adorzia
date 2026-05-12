@@ -26,7 +26,7 @@ export function Hero() {
 
         <p className="mt-6 md:mt-8 max-w-xl font-serif text-base md:text-xl text-foreground/85 leading-snug">
           3 rounds. 10 finalists. 1 winner.<br />
-          Judged by HSY, Maheen Khan, Deepak Perwani, and Nomi Ansari.
+          The lineup comprises a distinguished jury of Pakistan's most celebrated couturiers and fashion trailblazers.
         </p>
 
         <div className="mt-8 md:mt-10 flex flex-col sm:flex-row sm:flex-wrap items-stretch sm:items-center gap-3">
@@ -47,7 +47,7 @@ export function Hero() {
       {/* Side ticker */}
       <div className="hidden lg:block absolute right-6 top-1/2 -translate-y-1/2 rotate-90 origin-right">
         <span className="font-mono text-xs tracking-[0.4em] uppercase text-foreground/60">
-         KARACHI · LAHORE · ISLAMABAD · MULTAN · FAISALABAD
+         KARACHI · LAHORE · ISLAMABAD 
         </span>
       </div>
     </section>
