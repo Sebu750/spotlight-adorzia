@@ -78,10 +78,10 @@ export function FinalCta() {
               </div>
               {error && <p className="font-mono text-xs text-destructive">{error}</p>}
               <button type="submit" disabled={loading} className="btn-cut w-full disabled:opacity-60">
-                <span className="label">{loading ? "Submitting…" : "Pay entry fee & upload portfolio"}</span>
-                <span className="label-alt">No turning back</span>
+                <span className="label">{loading ? "Submitting…" : "Submit free application"}</span>
+                <span className="label-alt">No fee to apply</span>
               </button>
-              <p className="text-xs font-mono text-foreground/50 text-center">Applications open June 1st · Need-based waivers available</p>
+              <p className="text-xs font-mono text-foreground/50 text-center">Free to apply · Design files due July 15 · Top 100 pay 5,000 PKR to proceed</p>
             </>
           )}
         </form>
