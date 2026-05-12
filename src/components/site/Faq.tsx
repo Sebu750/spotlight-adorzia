@@ -1,6 +1,8 @@
 import { useState } from "react";
 
 const FAQS = [
+  { q: "Is there a fee to apply?", a: "No. Initial applications are completely free. Only candidates shortlisted in the Top 100 are required to pay a one-time, non-refundable fee of 5,000 PKR to proceed to jury review." },
+  { q: "When can I submit my design files?", a: "Initial applications (portfolio + vision) can be submitted right now. The dedicated submission window for full design files opens July 1 and closes July 15. All design files must be finalized and uploaded before the deadline to remain eligible." },
   { q: "Do I need to submit a full collection?", a: "No. Your initial application only requires your portfolio and design vision. We judge your creative point of view, not your current inventory." },
   { q: "Who owns the rights to my brand?", a: "You do. You retain 100% legal ownership of your trademarks, IP, and designs. ADORZIA is an investment and launch partner, not an owner." },
   { q: "Is the production funding a loan?", a: "No. For the Top 10 finalists, ADORZIA covers the manufacturing and production costs as an investment in your brand's market entry." },
