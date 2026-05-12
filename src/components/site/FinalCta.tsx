@@ -53,7 +53,7 @@ export function FinalCta() {
             away.
           </h2>
           <p className="mt-5 md:mt-6 font-serif text-base md:text-lg text-foreground/75 max-w-md">
-           Launch Season: 100 designers  will be shortlisted for 10 finalist spots. Apply by <span className="text-primary font-bold">July 15 </span> to secure your place.
+           Applications are open now — <span className="text-primary font-bold">free to enter</span>. Design file uploads open <span className="text-primary font-bold">July 1</span>, with final cutoff <span className="text-primary font-bold">July 15</span>. Only the Top 100 pay a non-refundable <span className="text-primary font-bold">5,000 PKR</span> fee to proceed.
           </p>
         </div>
 
